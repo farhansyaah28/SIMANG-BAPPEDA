@@ -186,12 +186,11 @@ export default function RegisterPage() {
             </Link>
 
             <div className="flex items-center space-x-3.5">
-              <div className="w-12 h-12 overflow-hidden relative rounded-full bg-white flex items-center justify-center border border-white/20 shadow-md">
+              <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center border border-white/20 shadow-md p-1">
                 <img 
                   src="/logo-bappeda.png" 
                   alt="Logo Bappeda" 
-                  className="w-22 h-22 max-w-none absolute object-contain"
-                  style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+                  className="w-10 h-10 object-contain"
                 />
               </div>
               <div>

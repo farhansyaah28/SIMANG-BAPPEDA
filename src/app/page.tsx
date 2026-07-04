@@ -9,12 +9,11 @@ export default function Home() {
       {/* TopNavBar */}
       <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-6 sm:px-12 h-20 max-w-[1440px] left-1/2 -translate-x-1/2 bg-[#f7f9ff]/90 backdrop-blur-md border-b border-slate-200/60 shadow-sm">
         <div className="flex items-center space-x-3">
-          <div className="w-11 h-11 overflow-hidden relative rounded-full bg-white flex items-center justify-center border border-slate-200/60 shadow-sm">
+          <div className="w-11 h-11 rounded-full bg-white flex items-center justify-center border border-slate-200/60 shadow-sm p-1">
             <img 
               src="/logo-bappeda.png" 
               alt="Logo Bappeda" 
-              className="w-20 h-20 max-w-none absolute object-contain"
-              style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+              className="w-9 h-9 object-contain"
             />
           </div>
           <div>

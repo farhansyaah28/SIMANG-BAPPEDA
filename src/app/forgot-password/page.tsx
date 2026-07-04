@@ -58,12 +58,11 @@ export default function ForgotPasswordPage() {
       <div className="relative z-10 max-w-md w-full mx-auto bg-white rounded-3xl shadow-2xl border border-slate-200/85 overflow-hidden p-8 sm:p-10">
         {/* Branding & Logo */}
         <div className="flex flex-col items-center mb-8">
-          <div className="w-20 h-20 overflow-hidden relative rounded-full bg-white flex items-center justify-center border border-slate-200 shadow-md">
+          <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center border border-slate-200 shadow-md p-1.5">
             <img 
               src="/logo-bappeda.png" 
               alt="Logo Bappeda" 
-              className="w-36 h-36 max-w-none absolute object-contain"
-              style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+              className="w-16 h-16 object-contain"
             />
           </div>
           <h2 className="text-xl font-extrabold text-slate-900 mt-4 text-center">Bappeda Aceh</h2>

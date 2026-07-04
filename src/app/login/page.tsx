@@ -34,12 +34,11 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-slate-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8 font-sans">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center">
-        <div className="mx-auto w-24 h-24 overflow-hidden relative rounded-full bg-white flex items-center justify-center border border-slate-200 shadow-md mb-4 animate-fade-in">
+        <div className="mx-auto w-24 h-24 rounded-full bg-white flex items-center justify-center border border-slate-200 shadow-md mb-4 animate-fade-in p-2">
           <img 
             src="/logo-bappeda.png" 
             alt="Logo Bappeda" 
-            className="w-44 h-44 max-w-none absolute object-contain"
-            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+            className="w-20 h-20 object-contain"
           />
         </div>
         <h2 className="mt-5 text-3xl font-extrabold text-slate-900 tracking-tight">
