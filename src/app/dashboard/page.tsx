@@ -6,8 +6,8 @@ import { dataService, isDemoMode, setDemoMode } from '@/lib/dataService';
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase';
 
-const BAPPEDA_LAT = 5.559385;
-const BAPPEDA_LNG = 95.318464;
+const BAPPEDA_LAT = 5.5568446354310215;
+const BAPPEDA_LNG = 95.32565213601151;
 const ALLOWED_RADIUS_M = 100;
 
 
